@@ -91,4 +91,16 @@ public class IUmsUserServiceImpl extends ServiceImpl<UmsUserMapper, UmsUser> imp
 
         return profile;
     }
+    @Override
+     public void updatesById(UmsUser umsUser) {
+        //获取用户填写的密码
+        String pwd = umsUser.getPassword();
+        //对用户填写的密码进行加密
+        pwd = MD5Utils.getPwd(pwd);
+        //将密码设置为加密后的
+        //因为系统在用户注册时就将用户输入的密码进行了加密并且存储在了数据库中，当用户更改了密码再次进行登陆时
+        //系统会将密码进行加密再比较
+        umsUser.setPassword(pwd);
+        baseMapper.updateById(umsUser);
+    }
 }
