@@ -62,7 +62,7 @@ public class UmsUserController extends BaseController {
         return ApiResult.success(null, "注销成功");
     }
 
-    @GetMapping("/{username}")
+    @GetMapping("/username/{username}")
     public ApiResult<Map<String, Object>> getUserByName(@PathVariable("username") String username,
                                                         @RequestParam(value = "pageNo", defaultValue = "1") Integer pageNo,
                                                         @RequestParam(value = "size", defaultValue = "10") Integer size) {
