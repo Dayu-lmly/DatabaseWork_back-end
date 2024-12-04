@@ -37,4 +37,5 @@ public interface IUmsUserService extends IService<UmsUser> {
      * @return
      */
     ProfileVO getUserProfile(String id);
+    void updatesById(UmsUser umsUser);
 }
