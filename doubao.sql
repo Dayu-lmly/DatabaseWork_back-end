@@ -204,26 +204,26 @@ CREATE TABLE `bms_tip`  (
 -- ----------------------------
 -- Records of bms_tip
 -- ----------------------------
-INSERT INTO `bms_tip` VALUES (1, '多锉出快锯，多做长知识。', '佚名', 1);
-INSERT INTO `bms_tip` VALUES (2, '未来总留着什么给对它抱有信心的人。', '佚名', 1);
-INSERT INTO `bms_tip` VALUES (3, '一个人的智慧不够用，两个人的智慧用不完。', '谚语', 1);
-INSERT INTO `bms_tip` VALUES (4, '十个指头按不住十个跳蚤', '傣族', 1);
-INSERT INTO `bms_tip` VALUES (5, '言不信者，行不果。', '墨子', 1);
-INSERT INTO `bms_tip` VALUES (6, '攀援而登，箕踞而遨，则几数州之土壤，皆在衽席之下。', '柳宗元', 1);
-INSERT INTO `bms_tip` VALUES (7, '美德大都包含在良好的习惯之内。', '帕利克', 1);
-INSERT INTO `bms_tip` VALUES (8, '人有不及，可以情恕。', '《晋书》', 1);
-INSERT INTO `bms_tip` VALUES (9, '明·吴惟顺', '法不传六耳', 1);
-INSERT INTO `bms_tip` VALUES (10, '真正的朋友应该说真话，不管那话多么尖锐。', '奥斯特洛夫斯基', 1);
-INSERT INTO `bms_tip` VALUES (11, '时间是一切财富中最宝贵的财富。', '德奥弗拉斯多', 1);
-INSERT INTO `bms_tip` VALUES (12, '看人下菜碟', '民谚', 1);
-INSERT INTO `bms_tip` VALUES (13, '如果不是怕别人反感，女人决不会保持完整的严肃。', '拉罗什福科', 1);
-INSERT INTO `bms_tip` VALUES (14, '爱是春暖花开时对你满满的笑意', '佚名', 1);
-INSERT INTO `bms_tip` VALUES (15, '希望是坚韧的拐杖，忍耐是旅行袋，携带它们，人可以登上永恒之旅。', '罗素', 1);
-INSERT INTO `bms_tip` VALUES (18, '天国般的幸福，存在于对真爱的希望。', '佚名', 1);
-INSERT INTO `bms_tip` VALUES (19, '我们现在必须完全保持党的纪律，否则一切都会陷入污泥中。', '马克思', 1);
+INSERT INTO `bms_tip` VALUES (1, '编程是关于解决问题的艺术，而不是关于编写代码。', 'Adam Dreyfus', 1);
+INSERT INTO `bms_tip` VALUES (2, '在编程中，我们解决的问题通常比我们用来解决问题的语言更重要。', 'Alan Perlis', 1);
+INSERT INTO `bms_tip` VALUES (3, '编程是艺术，也是科学；它要求创造力、原则性和精确性。', 'Donald Knuth', 1);
+INSERT INTO `bms_tip` VALUES (4, '好的代码本身就是最好的文档。', 'Steve McConnell', 1);
+INSERT INTO `bms_tip` VALUES (5, '程序员的最大挑战，是如何避免让代码变得比问题本身还要复杂。', '约翰·本尼', 1);
+INSERT INTO `bms_tip` VALUES (6, '计算机科学不仅仅是学习如何写代码，更重要的是学习如何思考。', '约翰·霍普克罗夫特', 1);
+INSERT INTO `bms_tip` VALUES (7, '计算机科学是理解世界的钥匙，而编程是解锁这把钥匙的工具。', ' 维尔·费根', 1);
+INSERT INTO `bms_tip` VALUES (8, '编程是一种实践艺术，只有在实践中才能学会。', '埃里希·布莱克', 1);
+INSERT INTO `bms_tip` VALUES (9, '编程是关于抽象和分层的，就像建筑一样。', '大卫·帕尔', 1);
+INSERT INTO `bms_tip` VALUES (10, '计算机科学是理解复杂系统的一种方式。', '艾伦·凯', 1);
+INSERT INTO `bms_tip` VALUES (11, '编程是思考的另一种形式。', '布莱士·帕斯卡', 1);
+INSERT INTO `bms_tip` VALUES (12, '编程是一种创造性活动，它允许我们以新的方式表达我们的思想。', '玛丽·艾伦·波克', 1);
+INSERT INTO `bms_tip` VALUES (13, '编程不仅仅是关于技术，它是关于如何将复杂的问题简化为可管理的任务。', '未知', 1);
+INSERT INTO `bms_tip` VALUES (14, '编程是一种挑战，它要求我们不断学习、适应和创新。', '佚名', 1);
+INSERT INTO `bms_tip` VALUES (15, '数据是新的石油。', '克劳斯·施瓦布', 1);
+INSERT INTO `bms_tip` VALUES (18, '人工智能是关于创造大脑的科学——大脑比我们自己更了解大脑。', '马文·闵斯基', 1);
+INSERT INTO `bms_tip` VALUES (19, '网络安全就像卫生：每个人都认为它很重要，直到他们生病。', '未知', 1);
 INSERT INTO `bms_tip` VALUES (20, '在科学上没有平坦的大道，只有不畏劳苦沿着陡峭山路攀登的人，才有希望达到光辉的顶点。', '马克思', 1);
-INSERT INTO `bms_tip` VALUES (21, '懒惰的马嫌路远', '蒙古', 1);
-INSERT INTO `bms_tip` VALUES (22, '别忘记热水是由冷水烧成的', '非洲', 1);
+INSERT INTO `bms_tip` VALUES (21, '在信息时代，价值不再在于你拥有多少数据，而在于你如何使用它。', '珍妮特·耶伦', 1);
+INSERT INTO `bms_tip` VALUES (22, '在计算机科学中，我们不解决一个问题，而是解决一类问题。', '理查德·贝尔', 1);
 
 
 -- ----------------------------
